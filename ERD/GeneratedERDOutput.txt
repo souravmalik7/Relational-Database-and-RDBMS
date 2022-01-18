@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------------------------------------------------------
+                                            PERSON 
+------------------------------------------------------------------------------------------------------------------------------
+         Column Name          Column Type                 Keys   Foreign Table Name  Foreign Column name         Relationship 
+            PersonID                  INT                   PK 
+
+         OrderNumber                  INT 
+
+          PersonName              VARCHAR 
+
+------------------------------------------------------------------------------------------------------------------------------
+                                              TEST 
+------------------------------------------------------------------------------------------------------------------------------
+         Column Name          Column Type                 Keys   Foreign Table Name  Foreign Column name         Relationship 
+             OrderID                  INT                   PK 
+
+         OrderNumber                  INT 
+
+              Person              VARCHAR                   FK              Persons           PersonName                  1:N 
+
+------------------------------------------------------------------------------------------------------------------------------
+                                              TEST 
+------------------------------------------------------------------------------------------------------------------------------
+         Column Name          Column Type                 Keys   Foreign Table Name  Foreign Column name         Relationship 
+             OrderID                  INT                   PK 
+
+         OrderNumber                  INT 
+
+              Person              VARCHAR                   FK              Persons           PersonName                  1:N 
+

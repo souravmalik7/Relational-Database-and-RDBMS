@@ -1,0 +1,2 @@
+User appy submitted 2 queries on database APPYS
+User santa submitted 7 queries on database APPYS

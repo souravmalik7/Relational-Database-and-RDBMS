@@ -1,0 +1,21 @@
+image: mvn:latest
+
+variables:
+  GIT_STRATEGY: clone
+  MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+stages:
+  - build
+
+Build:
+  stage: build
+  tags:
+    - ugrad
+  script: 
+    - mvn compile
+    - echo "Build started..."
+
+
+after_script: 
+  - echo "Pipeline Completed :)"

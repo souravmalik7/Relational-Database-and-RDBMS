@@ -1,0 +1,3 @@
+PersonID|INT|PK
+OrderNumber|INT
+PersonName|VARCHAR
